@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+}
+
+.custom-shape-divider-top-1700772848 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1700772848 svg {
+    position: relative;
+    display: block;
+    width: calc(136% + 1.3px);
+    height: 179px;
+}
+
+.separator {
+    width: 0;
+    height: 0;
+    border-right: 100vw solid transparent;
+    border-bottom: 12vw solid #303030;
+    margin-top: -12vw;
+}
+
+.backcolor {
+    background-color: #303030;
+}
+
+.gradienttop{
+    background: rgb(19,177,138);
+    background: linear-gradient(90deg, rgba(19,177,138,1) 0%, rgba(50,191,146,1) 100%);
+}
+
+.imgsize {
+    /* width: 20%; */
+    min-width: 250px;
+    
+}
