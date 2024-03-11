@@ -8,23 +8,29 @@ import { HttpClientModule } from '@angular/common/http';
 import { MarkdownComponent } from './components/markdown/markdown.component';
 import { HomeComponent } from './pages/home/home.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { NavbarComponent } from './components/navbar/navbar.component';  
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { MembersComponent } from './pages/members/members.component';
+import { ProyectsComponent } from './pages/proyects/proyects.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
     AppComponent,
     MarkdownComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    MembersComponent,
+    ProyectsComponent,
   ],
   imports: [
     BrowserModule,
     MarkdownModule.forRoot(),
     HttpClientModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    CommonModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

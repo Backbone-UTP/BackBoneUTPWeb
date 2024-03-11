@@ -1,0 +1,35 @@
+{
+    "members ": [
+        {
+        "name": "Jhon Alex Gavira",
+       "job": "Founder",
+       "image": "https://avatars.githubusercontent.com/u/115325893?s=200&v=4"
+      },
+      {
+        "name": "Nicolas Osorio Galvis",
+       "job": "Esclavo 1",
+        "image": "https://avatars.githubusercontent.com/u/115325893?s=200&v=4"
+
+      },
+      {
+        "name": "Erick",
+       "job": "Fisco de las cartas'"
+       , "image": "https://avatars.githubusercontent.com/u/115325893?s=200&v=4"
+      },
+      {
+        "name": "Miembro 2",
+       "job": "Frontend Developer",
+       "image": "https://avatars.githubusercontent.com/u/115325893?s=200&v=4"
+      },
+      {
+        "name": "Miembro 3",
+       "job": "Backend Developer", "image": "https://avatars.githubusercontent.com/u/115325893?s=200&v=4"
+      },
+      {
+        "name": "Miembro 4",
+       "job": "Designer",
+       "image": "https://avatars.githubusercontent.com/u/115325893?s=200&v=4"}
+    
+    ]
+
+}
